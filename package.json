@@ -1,0 +1,22 @@
+{
+  "name": "react-js",
+  "version": "1.0.0",
+  "description": "React Practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seshu-yaswanth-2001/React-Practise.git"
+  },
+  "author": "Seshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seshu-yaswanth-2001/React-Practise/issues"
+  },
+  "homepage": "https://github.com/seshu-yaswanth-2001/React-Practise#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
