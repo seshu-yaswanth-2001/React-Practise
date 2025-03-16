@@ -1,0 +1,16 @@
+Cross Origin:- 
+
+Cross Origin tells the browser how to handle the fetching resources from the different origins (domains, protocols or Ports)
+
+We can use Cross Origin in the Tags like {img, script, anchor (links) and video / audio tags}
+
+while setting up the cross Origin we can set some values to the crossOrigin
+
+1) anonymous - The request is made wothout credentials
+2) use-credentials - Sends credentials (cookies, authorization headers)
+3) empty attribute like (crossOrigin)
+
+a) If crossorigin="anonymous" is used, the browser sends the request without cookies or authentication data.
+b) If crossorigin="use-credentials" is used, the browser includes credentials (cookies, authentication).
+c) The server must send appropriate CORS headers (Access-Control-Allow-Origin, Access-Control-Allow-Credentials).
+d) If the server does not allow cross-origin requests, the browser blocks the resource.
