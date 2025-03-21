@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "React Practise",
   "scripts": {
+    "start": "parcel React/Day2/index.html",
+    "build": "parcel build React/Day2/index.html",
     "test": "jest"
   },
   "repository": {
