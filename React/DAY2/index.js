@@ -20,6 +20,7 @@ import ReactDOM from "react-dom/client";
  * if you have two project open at a time it open with two different port numbers
  * so, it handles Portnumbers also
  * Consistent hashing Algorithm
+ * tree shaking - Removing un-wanted libraries
  *
  */
 
@@ -31,6 +32,8 @@ const heading1 = React.createElement(
   },
   "Heading 1 from React"
 );
+
+// React.createElement - gives object and converts into HTML and put it on DOM
 
 const heading2 = React.createElement(
   "h2",
